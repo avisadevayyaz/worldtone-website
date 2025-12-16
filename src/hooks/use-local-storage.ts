@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { secureStorageUtils } from "@/lib/secure-storage";
+import { secureStorageUtils } from "@/src/lib/secure-storage";
 
 export function useLocalStorage<T>(
   key: string,
